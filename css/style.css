@@ -4,6 +4,10 @@ body {
   padding:0;
 }
 
+.container{
+  width: 75%;
+  margin:0 auto;
+}
 .navigation{
   border: 1px solid rgb(77, 66, 66);
  width:100%;
@@ -25,4 +29,10 @@ body {
 }
 .links a:hover{
   color:#000;
+}
+
+@media(max-width:48px){
+  .container{
+    width: 100%;
+  }
 }
