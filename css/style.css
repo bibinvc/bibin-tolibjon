@@ -26,7 +26,12 @@ p{
   justify-content: space-between;
   align-items: center;
 }
-
+section{
+  padding:15px;
+}
+h2{
+  margin-left: 15px;
+}
 .ad img{
   width:65%;
 }
@@ -46,7 +51,7 @@ p{
   flex-wrap: wrap;
   align-items: center;
   
-  /* justify-content: space-evenly; */
+  justify-content: space-between;
 }
 .items div{
   border:1px solid #ccc;
@@ -90,7 +95,7 @@ p{
   color: rgb(68, 65, 65);
 }
 .links a:hover{
-  color:#000;
+  color:rgb(64, 182, 117);
 }
 
 h2{
@@ -100,10 +105,26 @@ p{
   text-align: justify;
 }
 
+.video-description{
+  display: flex;
+}
+.video-description iframe, .video-description div{
+  flex:1 1 50%;
+  margin:5px;
+  color: rgb(90, 87, 87);
+}
+.video-description div h3{
+  margin-top: 0;
+  color: rgb(90, 87, 87);
+
+}
 .contacts{
   background-color: rgb(231, 227, 4);
   padding: 15px;
   text-align: center;
+}
+.contacts h2{
+  margin-top: 15px;
 }
 input[type="submit"]{
   color:#fff;
@@ -111,6 +132,17 @@ input[type="submit"]{
   background-color: #000;
   border-radius: 5px;
 
+}
+
+input[type="email"]{
+  height: 2em;
+  border:1px solid #000;
+  border-radius: 5px;
+  margin-left: 25px;
+}
+
+form span{
+  font-size: 1.5em;;
 }
 @media(max-width:48px){
   .container{
